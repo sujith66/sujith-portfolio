@@ -8,9 +8,9 @@ function App() {
     <Router>
       <NavBar />
       <Routes>
-        <Route element={<Home />} path='/' exact/>
-        <Route element={<About />} path=''/>
-        <Route element={<SinglePost />} path='/post/:id'/>
+        <Route element={<Home />} path='/' />
+        <Route element={<About />} path='/about'/>
+        <Route element={<SinglePost />} path='/post/:slug'/>
         <Route element={<Post />} path='/post'/>
         <Route element={<Project />} path='/project'/>
       </Routes>
